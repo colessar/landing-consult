@@ -1,0 +1,14 @@
+body {
+    letter-spacing: 0.1em;
+}
+a {
+    transition: 0.3s opacity ease-in-out;
+}
+a:hover {
+    opacity: 0.7;
+}
+.gallery-brand .swiper-wrapper{
+    transition-timing-function: linear !important;
+    width: 100%;
+    height: 100%;
+  }

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link rel="stylesheet" href="./assets/css/footer.css">
+</head>
+
+<body>
+    <header class="h-[80px] bg-grey flex items-center">
+        <div class="header-wrapper ps-[20px] pe-[20px] lg:pe-0 flex justify-between items-center w-full">
+            <a href="javascript:;">
+                <img src="./assets/img/logo.png" alt="logo" class="w-[145px] cursor-pointer">
+            </a>
+            <nav class="hidden lg:flex gap-x-8 items-center text-navy font-bold text-sm">
+                <a href="javascript:;">利用するメリット</a>
+                <a href="javascript:;">サービス特徴</a>
+                <a href="javascript:;">導入までの流れ</a>
+                <a href="javascript:;">よくあるご質問</a>
+                <a href="javascript:;"
+                    class="bg-blue hover:bg-orange px-6 py-[20px] inline-block text-[#ffffff] transition-opacity">
+                    お問合せ<br>
+                    こちら
+                </a>
+            </nav>
+            <!-- <div id="hamburgerMenu" class="lg:hidden block w-[36px] cursor-pointer">
+                <div class="w-full h-[2px] bg-navy"></div>
+                <div class="w-full h-[2px] bg-navy my-2"></div>
+                <div class="w-full h-[2px] bg-navy"></div>
+            </div> -->
+            <div id="hamburgerMenu" class="lg:hidden block w-[36px] cursor-pointer">
+                <div class="bar1 w-full h-[2px] bg-navy transition-transform duration-300"></div>
+                <div class="bar2 w-full h-[2px] bg-navy my-2 transition-opacity duration-300"></div>
+                <div class="bar3 w-full h-[2px] bg-navy transition-transform duration-300"></div>
+            </div>
+            
+        </div>
+    </header>
+    <main>
+        <section class="h-[calc(100vh-80px)] bg-cover bg-no-repeat bg-center py-[120px]"
+            style="background-image: url(./assets/img/mv.png);">
+            <div class="container mx-auto">
+                <h1 class="text-4xl font-bold bg-custom-gradient leading-relaxed w-fit">従業員様のお引っ越し</h1>
+                <img src="./assets/img/zero-yen.png" class="w-1/2 my-8" alt="zero-yen">
+                <div class="flex justify-between flex-wrap items-center flex-col lg:flex-row gap-y-8">
+                    <div>
+                        <p class="mb-8 font-semibold text-lg">
+                            ご加入・ご利用無料 最短当日から導入可能
+                        </p>
+                        <a href="javascript:;"
+                            class="relative shadow-btn-shadow bg-blue text-[#ffffff] flex gap-x-4 py-8 px-16 rounded-full text-xl font-bold group">
+                            <span class="
+                                relative before:absolute before:left-1/2 before:top-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:bg-yellow before:rounded-full before:w-[120%] before:aspect-[1/1]
+                                before:z-[-1] z-0 text-blue font-bold
+                                ">
+                                無料
+                            </span>
+                            無料の資料請求はこちら
+                            <img src="./assets/img/btn_arrow.png"
+                                class="w-[12px] h-[20px] absolute right-8  top-1/2 -translate-y-1/2  group-hover:translate-x-2  transition-transform duration-300"
+                                alt="btn-arrow">
+                        </a>
+                    </div>
+                    <img src="./assets/img/kv_maru_kv02.png"
+                        class="lg:w-[40%] lg:min-w-[unset] w-full min-w-[500px] lg:order-[unset] order-[-1]"
+                        alt="kv-maru">
+                </div>
+            </div>
+        </section>
+        <section class="section-01 py-24 bg-blue text-[#ffffff]">
+            <div class="container mx-auto mb-10">
+                <h2
+                    class="text-center leading-[2] shadow-btn-shadow w-fit mx-auto py-8 px-16 rounded-full text-2xl bg-orange text-[#ffffff] mb-8 font-bold">
+                    どこの不動産会社も「取扱物件ほぼ同じ」
+                    <br class="lg:hidden">
+                    知ってましたか？
+                </h2>
+                <p class="text-center leading-[2]">
+                    不動産会社はどこも共通の業者専用サイトを利用しているため取扱物件の数はほとんど同じ。<br>
+                    他社サイト物件もまとめてご紹介できます！
+                </p>
+            </div>
+            <div class="swiper-container gallery-brand w-full overflow-x-hidden bg-[#ffffff]">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="https://eroom.earthrevo.jp/honnefudousan/wp-content/themes/earthrevo/assets/img/brand_logo01.png"
+                            alt="物件検索サイト homes">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://eroom.earthrevo.jp/honnefudousan/wp-content/themes/earthrevo/assets/img/brand_logo02.png"
+                            alt="物件検索サイト suumo">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://eroom.earthrevo.jp/honnefudousan/wp-content/themes/earthrevo/assets/img/brand_logo03.png"
+                            alt="物件検索サイト yahoo不動産">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://eroom.earthrevo.jp/honnefudousan/wp-content/themes/earthrevo/assets/img/brand_logo04.png"
+                            alt="物件検索サイト athome">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://eroom.earthrevo.jp/honnefudousan/wp-content/themes/earthrevo/assets/img/brand_logo01.png"
+                            alt="物件検索サイト homes">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://eroom.earthrevo.jp/honnefudousan/wp-content/themes/earthrevo/assets/img/brand_logo02.png"
+                            alt="物件検索サイト suumo">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://eroom.earthrevo.jp/honnefudousan/wp-content/themes/earthrevo/assets/img/brand_logo03.png"
+                            alt="物件検索サイト yahoo不動産">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://eroom.earthrevo.jp/honnefudousan/wp-content/themes/earthrevo/assets/img/brand_logo04.png"
+                            alt="物件検索サイト athome">
+                    </div>
+                </div>
+
+            </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./assets/js/style.js"></script>
+</body>
+
+</html>
